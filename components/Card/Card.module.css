@@ -14,15 +14,18 @@
     margin-bottom: 2.5rem;
     padding: 2.5rem;
     background: var(--color-dark-20);
-    border: 2px solid var(--color-brand);
+    border: 2px solid transparent;
     border-radius: 8px;
+}
+
+.cardLiked {
+    border: 2px solid var(--color-brand) !important;
 }
 
 .cardDate {
     font-family: var(--font-family-inter), serif;
     font-weight: 500;
     color: var(--color-brand);
-    padding-bottom: 1rem;
 }
 
 .cardTitle {
@@ -41,3 +44,22 @@
     text-align: justify;
 }
 
+.cardMeta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.heartIcon {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+}
+
+.heartIcon:hover {
+    transform: scale(1.1);
+}
