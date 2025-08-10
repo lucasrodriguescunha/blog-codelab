@@ -1,0 +1,43 @@
+.cardContainer {
+    width: 80vw;
+}
+
+.cardContainer:last-child .cardContent {
+    margin-bottom: 0;
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    margin-bottom: 2.5rem;
+    padding: 2.5rem;
+    background: var(--color-dark-20);
+    border: 2px solid var(--color-brand);
+    border-radius: 8px;
+}
+
+.cardDate {
+    font-family: var(--font-family-inter), serif;
+    font-weight: 500;
+    color: var(--color-brand);
+    padding-bottom: 1rem;
+}
+
+.cardTitle {
+    font-family: var(--font-geist-space-grotesk), serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: var(--color-white);
+    padding-bottom: 0.5rem;
+}
+
+.cardDescription {
+    font-family: var(--font-family-inter), serif;
+    font-weight: 500;
+    font-size: 1.25rem;
+    color: var(--color-dark-50);
+    text-align: justify;
+}
+
