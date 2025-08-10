@@ -3,6 +3,8 @@
 import {useState} from 'react';
 import Image from 'next/image';
 
+import styles from './HeartIcon.module.css';
+
 interface HeartIconProps {
     onToggle?: (isFilled: boolean) => void;
 }
@@ -24,6 +26,7 @@ export default function HeartIcon({onToggle}: HeartIconProps) {
             height={24}
             onClick={handleClick}
             style={{cursor: 'pointer'}}
+            className={styles.heartIcon}
         />
     );
 }
