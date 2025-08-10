@@ -63,3 +63,21 @@
 .heartIcon:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .cardDate {
+        font-size: 0.875rem;
+    }
+
+    .cardTitle {
+        font-size: 1.25rem;
+    }
+
+    .cardDescription {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 480px) {
+
+}
