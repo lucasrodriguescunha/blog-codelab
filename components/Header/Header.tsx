@@ -10,6 +10,7 @@ export default function Header() {
                 alt='Logo CodeLab'
                 width={170}
                 height={51}
+                className={styles.logoIcon}
             />
 
             <section className={styles.searchContainer}>

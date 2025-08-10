@@ -32,6 +32,20 @@
 }
 
 @media (max-width: 480px) {
+    .headerContainer {
+        gap: 2rem;
+        padding: 3rem 0;
+    }
+
+    .searchContainer {
+        border: 1px solid var(--color-dark-40);
+    }
+
+    .logoIcon {
+        width: 102px;
+        height: 31px;
+    }
+
     .searchInput {
         font-size: 1rem;
     }
