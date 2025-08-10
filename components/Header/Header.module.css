@@ -20,6 +20,7 @@
 .searchInput {
     font-family: var(--font-family-inter), serif;
     width: 100%;
+    background: var(--color-dark-30);
     font-weight: 500;
     font-size: 1.25rem;
     color: var(--color-dark-50);
