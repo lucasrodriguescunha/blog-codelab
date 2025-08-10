@@ -23,11 +23,16 @@
     font-weight: 500;
     font-size: 1.25rem;
     color: var(--color-dark-50);
-    margin: 1rem 1.5rem;
-    background: transparent;
-    border: none;
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--color-dark-40);
 }
 
 .searchInput:focus {
     outline: none;
+}
+
+@media (max-width: 480px) {
+    .searchInput {
+        font-size: 1rem;
+    }
 }
