@@ -11,6 +11,7 @@
 }
 
 .searchContainer {
+    width: 80vw;
     background: var(--color-dark-30);
     border: 2px solid var(--color-dark-40);
     border-radius: 8px;
@@ -18,11 +19,13 @@
 
 .searchInput {
     font-family: var(--font-family-inter), serif;
-    width: 80vw;
+    width: 100%;
     font-weight: 500;
     font-size: 1.25rem;
     color: var(--color-dark-50);
     margin: 1rem 1.5rem;
+    background: transparent;
+    border: none;
 }
 
 .searchInput:focus {
