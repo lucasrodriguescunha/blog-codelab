@@ -7,7 +7,8 @@
     --color-dark-30: #202024;
     --color-dark-40: #252529;
     --color-dark-50: #AFABB6;
-    --color-dark-60: #FFFFFF;
+    --color-white: #FFFFFF;
 
-    --font-family-sans: var(--font-geist-inter);
+    --font-family-inter: var(--font-geist-inter);
+    --font-family-space-grotesk: var(--font-geist-space-grotesk);
 }
