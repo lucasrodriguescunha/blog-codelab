@@ -18,7 +18,7 @@ Um projeto simples de blog desenvolvido com Next.js para aprendizado e experimen
 
 ```bash
 # Clone o repositório
-git clone <url-do-repositorio>
+git clone https://github.com/lucasrodriguescunha/blog-codelab.git
 
 # Entre no diretório
 cd blog-codelab
