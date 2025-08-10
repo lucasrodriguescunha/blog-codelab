@@ -1,4 +1,4 @@
-# Blog Codelab
+# Blog CodeLab
 
 Um projeto simples de blog desenvolvido com Next.js para aprendizado e experimentação.
 
