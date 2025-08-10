@@ -7,7 +7,7 @@ export default function Header() {
         <div className={styles.headerContainer}>
             <Image
                 src='/codelab.svg'
-                alt="Logo CodeLab"
+                alt='Logo CodeLab'
                 width={170}
                 height={51}
             />
