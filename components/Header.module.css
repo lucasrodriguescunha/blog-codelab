@@ -4,26 +4,35 @@
     justify-content: center;
     align-items: center;
 
-    background: #17171A;
+    background: var(--color-dark-20);
     gap: 3rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
 .searchContainer {
-    width: calc(100% - 22rem);
-    background: #202024;
-    border: 2px solid #252529;
+    background: var(--color-dark-30);
+    border: 2px solid var(--color-dark-40);
     border-radius: 8px;
 }
 
 .searchInput {
+    font-family: var(--font-family-sans), serif;
+    width: 80vw;
     font-weight: 500;
     font-size: 1.25rem;
-    color: #AFABB6;
+    color: var(--color-dark-50);
     margin: 1rem 1.5rem;
 }
 
 .searchInput:focus {
     outline: none;
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 480px) {
+
 }
