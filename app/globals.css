@@ -1,6 +1,8 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme inline {
+:root {
     --color-brand: #E07B67;
     --color-dark-10: #121214;
     --color-dark-20: #17171A;
