@@ -4,3 +4,10 @@
         height: 24px !important;
     }
 }
+
+@media (max-width: 480px) {
+    .heartIcon {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
