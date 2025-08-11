@@ -1,8 +1,8 @@
 import {fireEvent, render, screen} from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Card from '../components/Card/Card';
+import PostCard from '@/components/PostCard/PostCard';
 
-describe('Card Component', () => {
+describe('PostCard Component', () => {
     const mockProps = {
         date: '17 de ago, 2024',
         title: 'Teste de título',
@@ -10,7 +10,7 @@ describe('Card Component', () => {
     };
 
     test('renderiza o card com as propriedades corretas', () => {
-        render(<Card {...mockProps} />);
+        render(<PostCard {...mockProps} />);
 
         expect(screen.getByText('17 de ago, 2024')).toBeInTheDocument();
         expect(screen.getByText('Teste de título')).toBeInTheDocument();
@@ -18,7 +18,7 @@ describe('Card Component', () => {
     });
 
     test('aplica a classe cardLiked quando o coração é clicado', () => {
-        render(<Card {...mockProps} />);
+        render(<PostCard {...mockProps} />);
 
         const heartIcon = screen.getByAltText('Coração não preenchido');
         fireEvent.click(heartIcon);

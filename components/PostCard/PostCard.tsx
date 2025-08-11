@@ -3,7 +3,7 @@
 import {useState} from 'react';
 import HeartIcon from '@/components/HeartIcon/HeartIcon';
 
-import styles from './Card.module.css';
+import styles from './PostCard.module.css';
 
 interface CardProps {
     date: string;
@@ -11,7 +11,7 @@ interface CardProps {
     description: string;
 }
 
-export default function Card({date, title, description}: CardProps) {
+export default function PostCard({date, title, description}: CardProps) {
     const [isLiked, setIsLiked] = useState(false);
 
     return (

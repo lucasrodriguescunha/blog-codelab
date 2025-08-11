@@ -1,11 +1,11 @@
 import Header from '@/components/Header/Header';
-import Content from '@/components/Content/Content';
+import PostList from '@/components/PostList/PostList';
 
 export default function Page() {
     return (
         <>
             <Header/>
-            <Content/>
+            <PostList/>
         </>
     );
 }
