@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import SearchBar from '@/components/SearchBar/SearchBar';
 
 import styles from './Header.module.css';
 
@@ -12,14 +13,7 @@ export default function Header() {
                 height={51}
                 className={styles.logoIcon}
             />
-
-            <section className={styles.searchContainer}>
-                <input
-                    type='text'
-                    placeholder='Pesquisar no blog'
-                    className={styles.searchInput}
-                />
-            </section>
+            <SearchBar/>
         </div>
     );
 }
