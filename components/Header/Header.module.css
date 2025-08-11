@@ -14,7 +14,7 @@
     width: 80vw;
     background: var(--color-dark-30);
     border: 2px solid var(--color-dark-40);
-    border-radius: 8px;
+    border-radius: 0.5rem; /* 8px */
 }
 
 .searchInput {
@@ -43,12 +43,12 @@
     }
 
     .logoIcon {
-        width: 102px;
-        height: 31px;
+        width: 6.375rem; /* 102px */
+        height: 1.9375rem; /* 31px */
     }
 
     .searchInput {
         font-size: 1rem;
-        border-radius: 8px;
+        border-radius: 0.5rem; /* 8px */
     }
 }
