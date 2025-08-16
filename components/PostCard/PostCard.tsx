@@ -5,13 +5,13 @@ import HeartIcon from '@/components/HeartIcon/HeartIcon';
 
 import styles from './PostCard.module.css';
 
-interface CardProps {
+interface PostCardProps {
     date: string;
     title: string;
     description: string;
 }
 
-export default function PostCard({date, title, description}: CardProps) {
+export default function PostCard({date, title, description}: PostCardProps) {
     const [isLiked, setIsLiked] = useState(false);
 
     return (
