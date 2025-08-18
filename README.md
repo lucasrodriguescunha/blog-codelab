@@ -2,19 +2,19 @@
 
 Um projeto simples de blog desenvolvido com Next.js para aprendizado e experimentação.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **Next.js 15** - Framework React
 - **React 19** - Biblioteca para interfaces
 - **TypeScript** - Tipagem estática
 - **Jest** - Testes
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 - Node.js 18+
 - npm
 
-## 🚀 Instalação e uso
+## Instalação e uso
 
 ```bash
 # Clone o repositório
@@ -32,7 +32,7 @@ npm run dev
 
 Acesse http://localhost:3000 para ver o resultado.
 
-## 📝 Scripts disponíveis
+## Scripts disponíveis
 
 ```bash
 npm run dev        # Servidor de desenvolvimento
@@ -42,7 +42,7 @@ npm test           # Executar testes
 npm run lint       # Verificar código
 ```
 
-## 📁 Estrutura
+## Estrutura
 
 ```
 ├── app/           # Páginas (App Router)
@@ -51,10 +51,5 @@ npm run lint       # Verificar código
 └── __tests__/     # Testes
 ```
 
-## 🌐 Deploy
 
-O projeto está configurado para deploy fácil na Vercel.
-
----
-
-Desenvolvido com ❤️ por [Lucas]
+Desenvolvido com ❤️ por Lucas Rodrigues Cunha
